@@ -1,0 +1,9 @@
+img{
+  width: 30%;
+  margin: auto;
+}
+
+article {
+  display: inline-block;
+  border: 1px solid lightblue;
+}
