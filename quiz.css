@@ -1,9 +1,59 @@
-img{
-  width: 30%;
+/*Block Styling and Positioning*/
+.medium {
+  border:1px solid lightblue;
   margin: auto;
+  max-width: 30%;
+  display: inline-block;
 }
 
-article {
+.dark {
   display: inline-block;
-  border: 1px solid lightblue;
+  border:1px solid lightblue;
+  margin: auto;
+  max-width: 30%
+}
+
+.tshirt {
+  display: inline-block;
+  border:1px solid lightblue;
+  margin: auto;
+  max-width: 30%
+}
+
+.green {
+  display: inline-block;
+  border:1px solid lightblue;
+  margin: auto;
+  width: 30%;
+  max-width: 30%
+}
+
+/*Inside the box styling*/
+
+h1 {
+  border:1px solid lightgray;
+  text-align: center;
+  line-height: normal;
+}
+
+p {
+  margin-top: 4px;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p, header {
+  text-align: center;
+}
+
+img {
+  height:100px;
+  width:100px;
+}
+
+.pricing p {
+  margin-top: 4px;
 }
