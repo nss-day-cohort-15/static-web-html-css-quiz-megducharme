@@ -1,31 +1,12 @@
 /*Block Styling and Positioning*/
-.medium {
+.medium,
+.dark,
+.tshirt,
+.green {
   border:1px solid lightblue;
-  margin: auto;
+  margin: 20px 10px;
   max-width: 30%;
   display: inline-block;
-}
-
-.dark {
-  display: inline-block;
-  border:1px solid lightblue;
-  margin: auto;
-  max-width: 30%
-}
-
-.tshirt {
-  display: inline-block;
-  border:1px solid lightblue;
-  margin: auto;
-  max-width: 30%
-}
-
-.green {
-  display: inline-block;
-  border:1px solid lightblue;
-  margin: auto;
-  width: 30%;
-  max-width: 30%
 }
 
 /*Inside the box styling*/
@@ -36,24 +17,47 @@ h1 {
   line-height: normal;
 }
 
-p {
-  margin-top: 4px;
-}
-
 h4 {
-  font-weight: bold;
   text-align: center;
+  line-height: 4px;
+  font-weight: normal;
 }
 
-p, header {
-  text-align: center;
-}
 
 img {
   height:100px;
   width:100px;
+  margin: 0 auto;
+  display: block;
 }
 
-.pricing p {
-  margin-top: 4px;
+header {
+  text-align: center;
 }
+
+.description {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.avaliable {
+  background-color: darkgray;
+  color:yellow;
+  text-align: center;
+}
+
+.specifications {
+  text-align: center;
+  margin-top: 4px;
+  font-weight: bold;
+  }
+
+.pricing {
+  text-align: center;
+}
+
+.valid {
+  font-size: 10px;
+  text-align: center;
+}
+
