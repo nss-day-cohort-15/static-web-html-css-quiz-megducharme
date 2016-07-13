@@ -1,8 +1,5 @@
 /*Block Styling and Positioning*/
-.medium,
-.dark,
-.tshirt,
-.green {
+.block {
   border:1px solid lightblue;
   margin: 20px 10px;
   max-width: 30%;
@@ -33,19 +30,14 @@ p {
   margin: 20px 10px 20px 10px;
 }
 
-.green img {
-  min-height: 130px;
-  width: 150px;
-}
-
-.tshirt img {
-  height: 100px;
-  width: 150px;
+.wideimg {
+  height: 130px;
+  width: 170px;
 }
 
 .description {
   margin-top: 10px;
-  text-align: center;
+  text-align: justify;
 }
 
 .avaliable {
