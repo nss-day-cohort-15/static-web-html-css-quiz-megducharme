@@ -1,0 +1,61 @@
+/*Block Styling and Positioning*/
+.block {
+  border:1px solid lightblue;
+  margin: 20px 10px;
+  max-width: 30%;
+  display: inline-block;
+}
+
+/*Inside the box styling*/
+
+h1 {
+  border:1px solid lightgray;
+  text-align: center;
+  line-height: normal;
+}
+
+h4 {
+  line-height: 4px;
+  font-weight: normal;
+}
+
+img {
+  height:130px;
+  width:100px;
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  margin: 20px 10px 20px 10px;
+}
+
+.wideimg {
+  height: 130px;
+  width: 170px;
+}
+
+.description {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.avaliable {
+  background-color: darkgray;
+  color:yellow;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.specifications,
+.pricing {
+  margin: 2px 5px 2px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  }
+
+.valid {
+  font-size: 10px;
+  text-align: center;
+}
+
